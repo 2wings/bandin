@@ -28,6 +28,10 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
         </dependency>
@@ -67,6 +71,24 @@
                 <version>${vertx.version}</version>
             </dependency>
 
+
+            <!-- mongo deps -->
+            <dependency>
+                <groupId>org.mongodb.morphia</groupId>
+                <artifactId>morphia</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.vertx</groupId>
+                <artifactId>vertx-mongo-client</artifactId>
+                <version>3.0.0-milestone4</version>
+            </dependency>
+            <dependency>
+                <groupId>io.vertx</groupId>
+                <artifactId>vertx-mongo-service</artifactId>
+                <version>3.0.0-milestone4</version>
+            </dependency>
 
             <dependency>
                 <groupId>com.google.code.gson</groupId>
